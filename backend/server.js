@@ -8,7 +8,7 @@ require("./connection");
 const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server, {
-  cors: "https://webshop-online-one.vercel.app",
+  cors: "https://webshop-online-m1m1.vercel.app",
   methods: ["GET", "POST", "PATCH", "DELETE"],
 });
 
